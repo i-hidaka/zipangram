@@ -5,15 +5,15 @@
   >
     <!-- 検索アイコン -->
     <nuxt-link to="/search" class="w-[33.33%]">
-      <i class="fas fa-search fa-lg"></i>
+      <i class="fas fa-search text-3xl"></i>
     </nuxt-link>
     <!-- homeアイコン -->
     <nuxt-link to="/home" class="w-[33.33%]">
-      <i class="fas fa-home fa-lg"></i>
+      <i class="fas fa-home text-3xl"></i>
     </nuxt-link>
     <!-- マイページアイコン -->
     <nuxt-link to="/mypage" class="w-[33.33%]">
-      <i class="fas fa-user-circle fa-lg"></i>
+      <i class="fas fa-user-circle text-3xl"></i>
     </nuxt-link>
   </div>
 </template>
