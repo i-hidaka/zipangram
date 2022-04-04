@@ -8,6 +8,7 @@
     <div class="my-4 text-lg">
       <div class="bg-gray-100 py-4 px-4 rounded-lg">
         <input
+          id="inputName"
           v-model="userName"
           class="appearance-none bg-gray-100 border-none focus:outline-none px-3"
           type="text"
@@ -21,6 +22,7 @@
       </div>
       <div class="bg-gray-100 py-4 px-4 rounded-lg">
         <input
+          id="inputPassword"
           v-model="password"
           class="appearance-none bg-gray-100 border-none focus:outline-none px-3"
           autocomplete="off"
@@ -35,6 +37,7 @@
     <div class="mt-4">
       <!-- button -->
       <button
+        id="loginButton"
         class="text-white bg-accent-color focus:ring-4 font-medium rounded-lg text-xl w-full px-5 py-2.5 text-center"
         @click="login"
       >

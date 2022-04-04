@@ -19,7 +19,8 @@
       "@nuxt/types",
       "@nuxtjs/axios",
       "@types/node",
-      "cookie-universal-nuxt"
+      "cookie-universal-nuxt",
+      "@types/jest"
     ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
