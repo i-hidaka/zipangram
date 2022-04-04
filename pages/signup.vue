@@ -11,6 +11,7 @@
           <label class="text-input-value-color">Create user name</label>
           <br />
           <input
+            id="inputName"
             v-model="userName"
             class="appearance-none bg-gray-100 border-none focus:outline-none py-2 px-3"
             type="text"
@@ -25,6 +26,7 @@
         <div class="border-b border-input-value-color">
           <label class="text-input-value-color">Create a password</label><br />
           <input
+            id="inputPassword"
             v-model="password"
             class="appearance-none bg-gray-100 border-none focus:outline-none py-2 px-3"
             autocomplete="off"
