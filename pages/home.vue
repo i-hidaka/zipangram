@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-4 py-8">
     <div
-      v-show="postsId.length === 0"
+      v-if="postsId.length === 0"
       class="none-posts flex flex-col justify-center w-full"
     >
       <div class="msg text-dark-gray text-lg text-center items-center">
@@ -25,6 +25,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
+  name:"PostDetail",
   middleware: 'auth',
   data() {
     return {

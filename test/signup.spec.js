@@ -5,6 +5,7 @@ import signup from '@/pages/signup.vue'
 const localVue = createLocalVue()
 localVue.use(Vuex)
 // localVue内のstore作成
+// eslint-disable-next-line import/no-named-as-default-member
 const store = new Vuex.Store({
   modules: {
     user: {
